@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DJ Fortuna | Artista e produtor musical</title>
+    <meta name="description" content="DJ Fortuna e um projeto musical com temas originais disponiveis no Spotify, YouTube, Amazon Music e outras plataformas.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar" aria-label="Navegacao principal">
+      <a class="brand" href="#inicio">DJ Fortuna</a>
+      <nav>
+        <a href="#som">Musicas</a>
+        <a href="#plataformas">Plataformas</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-media" aria-hidden="true">
+          <img src="dj-fortuna-foto-nova-site.jpg" alt="">
+          <div class="stage-light light-a"></div>
+          <div class="stage-light light-b"></div>
+          <div class="crowd">
+            <span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Artista e produtor musical</p>
+          <h1>DJ Fortuna</h1>
+          <p class="lead">Musica original disponivel no Spotify, YouTube, Amazon Music e outras plataformas.</p>
+          <div class="actions" aria-label="Acoes principais">
+            <a class="button primary" href="#som">Ouvir musicas</a>
+            <a class="button secondary" href="#plataformas">Ver plataformas</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="listen-band" id="som" aria-label="Zona de escuta">
+        <div class="section-inner listen-layout">
+          <div>
+            <p class="eyebrow dark">Lançamentos</p>
+            <h2>Temas originais para ouvir e seguir.</h2>
+            <p>DJ Fortuna esta a construir o seu caminho na producao musical, com faixas distribuidas em varias plataformas digitais.</p>
+          </div>
+          <div class="player-panel" aria-label="Painel visual de musica">
+            <button class="play-button" type="button" aria-label="Tocar musica">▶</button>
+            <div class="track-info">
+              <strong>Rhythm Inside</strong>
+              <span>DJ Fortuna · tema original</span>
+            </div>
+            <div class="equalizer" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="track-list" aria-label="Escolher musica">
+              <button class="track-choice is-selected" type="button" data-src="Rhythm%20Inside.wav" data-title="Rhythm Inside">Rhythm Inside</button>
+              <button class="track-choice" type="button" data-src="Electric%20Nights.wav" data-title="Electric Nights">Electric Nights</button>
+            </div>
+            <audio id="dj-track" preload="metadata">
+              <source src="Rhythm%20Inside.wav" type="audio/wav">
+            </audio>
+          </div>
+        </div>
+      </section>
+
+      <section class="platforms" id="plataformas">
+        <div class="section-inner">
+          <p class="eyebrow dark">Streaming</p>
+          <h2>Segue DJ Fortuna nas plataformas digitais.</h2>
+          <div class="platform-grid" aria-label="Plataformas de musica">
+            <a href="https://open.spotify.com/search/DJ%20Fortuna" target="_blank" rel="noreferrer">Spotify</a>
+            <a href="https://www.youtube.com/results?search_query=DJ+Fortuna" target="_blank" rel="noreferrer">YouTube</a>
+            <a href="https://music.amazon.com/search/DJ%20Fortuna" target="_blank" rel="noreferrer">Amazon Music</a>
+            <a href="https://music.apple.com/search?term=DJ%20Fortuna" target="_blank" rel="noreferrer">Apple Music</a>
+            <a href="https://www.deezer.com/search/DJ%20Fortuna" target="_blank" rel="noreferrer">Deezer</a>
+            <a href="https://djfortuna.bandcamp.com/album/pulsewave-nights" target="_blank" rel="noreferrer">Bandcamp</a>
+            <a href="https://distrokid.com/hyperfollow/djfortuna/orbit-sequence" target="_blank" rel="noreferrer">DistroKid</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="events" id="sobre">
+        <div class="section-inner">
+          <p class="eyebrow dark">Sobre</p>
+          <h2>Um projeto musical em crescimento.</h2>
+          <div class="event-grid">
+            <article>
+              <span>01</span>
+              <h3>Producao musical</h3>
+              <p>Temas originais criados para transmitir energia, movimento e uma identidade sonora propria.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Distribuicao digital</h3>
+              <p>Musicas disponiveis em plataformas como Spotify, Amazon Music, YouTube e outros servicos de streaming.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Proximos passos</h3>
+              <p>Novas faixas, mixes e conteudos musicais em preparacao para fazer o projeto crescer.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="contacto">
+        <div class="section-inner cta-layout">
+          <div>
+            <p class="eyebrow dark">Contacto</p>
+            <h2>Contacta DJ Fortuna.</h2>
+            <p>Para colaborações, playlists, radios, plataformas ou propostas ligadas ao projeto musical.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary dark-button" href="mailto:djfortuna_vivamusica@hotmail.com">Enviar email</a>
+            <a class="button secondary dark-outline" href="#plataformas">Ouvir primeiro</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>DJ Fortuna</span>
+      <span>Artista e produtor musical.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
